@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Lady Problems Hackhton</title>
 	<link rel="stylesheet" href="css/style-min.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
 </head>
 <body class="page-cadastro">
 
@@ -45,40 +47,40 @@
 								<label for="cadastro-mentora">Quero ser mentora</label>
 							</div>
 							<div class="interno-login-corpo-campos tipo posicao-pupila">
-								<input type="radio" id="cadastro-pupila" name="tipo-cadastro" class="tipo-cadastro" value="pupila">
+								<input type="radio" id="cadastro-pupila" name="tipo-cadastro" class="tipo-cadastro" value="pupila" checked>
 								<label for="cadastro-pupila">Tô perdida</label>
 							</div>
 						</div>
 
 							<div class="login-corpo-campos">
 								<label for="nome">Nome</label>
-								<input type="nome" id="nome" placeholder="Digite seu nome">
+								<input type="nome" id="nome" placeholder="Digite seu nome" value="Fulano">
 							</div>
 
 							<div class="login-corpo-campos">
 								<label for="email">E-mail</label>
-								<input type="email" id="email" placeholder="Digite seu e-mail">
+								<input type="email" id="email" placeholder="Digite seu e-mail" value="fulano@fulano.com.br">
 							</div>
 
 							<div class="login-corpo-campos">
 								<label for="senha">Senha</label>
-								<input type="password" id="senha" placeholder="Digite sua senha">
+								<input type="password" id="senha" placeholder="Digite sua senha" value="1234">
 							</div>
 
 							<div class="login-corpo-campos">
 								<div class="interno-login-corpo-campos">
 									<label for="data-nascimento">Data de nascimento</label>
-									<input type="text" id="data-nascimento" placeholder="DD/MM/AAAA">
+									<input type="text" id="data-nascimento" placeholder="DD/MM/AAAA" value="27/12/1990">
 								</div>
 
 								<div class="interno-login-corpo-campos posicao-estado">
 									<label for="estado">Estado</label>
-									<input type="text" id="estado" placeholder="Digite seu estado">
+									<input type="text" id="estado" placeholder="Digite seu estado" value="SP">
 								</div>
 							</div>
 
 							<div class="login-corpo-btn">
-								<input type="submit" value="Entrar" id="entrar">
+								<input type="submit" value="Entrar" id="entrar-cadastro">
 							</div>
 				</div>
 

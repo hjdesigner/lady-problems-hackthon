@@ -33,10 +33,23 @@ function login(){
 		});
 	}
 }
+function cadastro(){
+
+	if( $('body').hasClass('page-cadastro') ){
+		
+		$('#entrar-cadastro').on('click', function(event) {
+			event.preventDefault();
+			/* Act on the event */
+			window.location.href = "sucesso-cadastro.html";
+		});
+
+	}
+}
 
 $(document).ready(function($) {
 
 	chat();
 	login();
+	cadastro();
 
 });
