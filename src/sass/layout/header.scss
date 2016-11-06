@@ -69,15 +69,20 @@ header{
 						width: 90px;
 						height: 40px;
 						float: left;
-						color: #FFF;
+							a{
+								color: #FFF;
+							}
 					}	
 					&:last-child{
 						width: 137px;
 						height: 40px;
 						float: left;
-						color: #413990;
 						background-color: #FFF;
+							a{
+								color: #413990;
+							}
 					}
+
 				}
 		}
 }

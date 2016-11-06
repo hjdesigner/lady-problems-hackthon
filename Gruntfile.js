@@ -21,7 +21,7 @@ module.exports = function(grunt){
             style: 'compressed'
           },
           files: {
-            'src/css/style.min.css': 'src/sass/style.min.scss',
+            'src/css/style-min.css': 'src/sass/style-min.scss',
           }
         }
       },

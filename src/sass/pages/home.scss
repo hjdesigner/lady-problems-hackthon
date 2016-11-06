@@ -105,6 +105,7 @@
 	width: 100%;
 	height: auto;
 	float: left;
+	padding-bottom: 45px;
 
 		h3{
 			width: 100%;
@@ -129,20 +130,232 @@
 			font-size: 18px;
 			color: #413990;
 		}
-
+		
+		.depo-esq{
+			width: 585px;
+			height: auto;
+			float: left;
+			margin-right: 21px;
+		}
 		.dp-1{
 				width: 585px;
 				height: 238px;
 				float: left;
+				margin-bottom: 21px;
+				background-color: #67e2ca;
+					.depoimento-categoria{
+						background-color: #389583;
+					}
+					p{
+						width: 487px;
+						height: 93px;
+						float: left;
+						margin: 52px 0 0 66px;
+						text-align: left;
+						font-family: $font-lato;
+						font-weight: 400;
+						font-size: 20px;
+						color: #389583;	
+					}
 		}
 		.dp-2{
 				width: 585px;
 				height: 238px;
 				float: left;
+				background-color: #fa7260;
+					.depoimento-categoria{
+						background-color: #ce4f3e;
+					}
+					p{
+						width: 487px;
+						height: 93px;
+						float: left;
+						margin: 52px 0 0 66px;
+						text-align: left;
+						font-family: $font-lato;
+						font-weight: 400;
+						font-size: 20px;
+						color: #FFF;		
+					}
 		}
-		.dp-2{
+		.dp-3{
 				width: 538px;
-				height: 4px;
+				height: 497px;
+				float: right;
+				background-color: #413990;
+					.depoimento-categoria{
+						background-color: #6357dc;
+					}
+					p{
+						width: 405px;
+						height: 330px;
+						float: left;
+						margin: 52px 0 0 65px;
+						text-align: left;
+						font-family: $font-lato;
+						font-weight: 400;
+						font-size: 35px;
+						color: #FFF;		
+					}
+		}
+		.depoimento-texto{
+			.depoimento-titulo{
+				width: auto;
+				height: auto;
 				float: left;
+				margin: 21px 0 0 29px;
+				font-family: $font-lato;
+				font-weight: 400;
+				font-size: 18px;
+				font-style: italic;
+				color: #FFF;				
+			}
+			.depoimento-categoria{
+				width: 124px;
+				height: 36px;
+				float: right;
+				margin-right: 19px;
+				text-align: center;
+				line-height: 36px;
+				font-family: $font-lato;
+				font-weight: 700;
+				font-size: 18px;
+				color: #FFF;
+			}
+		}
+}
+.contato{
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color: #f8f7fa;
+	padding-bottom: 120px;
+		h4{
+			width: 100%;
+			height: auto;
+			float: left;
+			margin: 70px 0 0;
+			text-transform: uppercase;
+			text-align: center;
+			font-family: $font-lato;
+			font-weight: 300;
+			font-size: 35px;
+			color: #413990;
+		}
+		p{
+			width: 100%;
+			height: auto;
+			float: left;
+			margin: 35px 0 0;
+			text-align: center;
+			font-family: $font-lato;
+			font-weight: 400;
+			font-size: 18px;
+			color: #413990;
+		}
+
+		.contato-form{
+			width: 600px;
+			height: auto;
+			float: left;
+			margin: 65px 0 0 calc(50% - 300px);
+
+				.contatos-campos{
+					width: 288px;
+					height: 50px;
+					float: left;
+					position: relative;
+					margin-bottom: 19px;
+				}
+				.cc-email{
+					float: right;
+				}
+				.contatos-campos-full{
+					width: 600px;
+					height: 50px;
+					float: left;
+					position: relative;
+					margin-bottom: 19px;
+						input{
+							width: 587px;
+							height: 25px;
+							float: left;
+							padding-top: 25px;
+							padding-left: 16px;
+							border: 1px solid #d4d4d5;
+							background-color: #f8f7fa;
+							font-family: $font-lato;
+							font-weight: 400;
+							font-size: 14px;
+							color: #414141;
+						}
+				}
+				.contatos-campos-msg{
+					width: 600px;
+					height: auto;
+					float: left;
+					position: relative;
+					margin-bottom: 19px;
+						textarea{
+							width: 587px;
+							height: 154px;
+							float: left;
+							padding-top: 25px;
+							padding-left: 16px;
+							border: 1px solid #d4d4d5;
+							background-color: #f8f7fa;
+							font-family: $font-lato;
+							font-weight: 400;
+							font-size: 16px;
+							color: #909090;
+						}
+				}
+				label{
+					width: auto;
+					height: auto;
+					position: absolute;
+					top: 9px;
+					left: 16px;
+					text-transform: uppercase;
+					font-family: $font-lato;
+					font-weight: 400;
+					font-size: 9px;
+					color: #909090;
+				}
+				input{
+					width: 272px;
+					height: 25px;
+					float: left;
+					padding-top: 25px;
+					padding-left: 16px;
+					border: 1px solid #d4d4d5;
+					background-color: #f8f7fa;
+					font-family: $font-lato;
+					font-weight: 400;
+					font-size: 16px;
+					color: #414141;
+				}
+				.contato-btn{
+					width: 100%;
+					height: auto;
+					float: left;
+
+						.contato-btn{
+							width: 293px;
+							height: 50px;
+							float: right;
+							line-height: 50px;
+							background-color: #ec5757;
+							border: 0px;
+							text-transform: uppercase;
+							font-family: $font-lato;
+							font-weight: 400;
+							font-size: 16px;
+							color: #FFF;
+							padding: 0;
+    						margin: 0;
+    						cursor: pointer;
+						}
+				}
 		}
 }
