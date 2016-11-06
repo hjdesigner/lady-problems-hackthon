@@ -1,3 +1,4 @@
-body{
-	background-color: #000;
-}
+@import "tools/base";
+@import "tools/variaveis";
+@import "layout/header";
+@import "pages/home";
