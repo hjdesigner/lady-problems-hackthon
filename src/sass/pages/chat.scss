@@ -1,0 +1,182 @@
+body.page-chat{
+
+	.chat{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin-top: 175px;
+		padding-bottom: 70px;
+
+			.chat-form{
+				width: 852px;
+				height: auto;
+				float: left;
+				padding: 37px 39px;
+				margin-left: calc(50% - 465px);
+				background-color: #f8f7fa;
+
+					h1{
+						width: 100%;
+						height: auto;
+						float: left;
+						margin: 0;
+						position: relative;
+						text-align: center;
+						text-transform: uppercase;
+						font-family: $font-lato;
+						font-weight: 300;
+						font-size: 18px;
+						color: #413990;
+
+						&:before{
+							content: "";
+							position: absolute;
+							bottom: -15px;
+							left: calc(50% - 15px);
+							width: 31px;
+							height: 10px;
+							background-image: url('../images/separador.jpg');
+						}
+					}
+					.box-msg{
+						width: 100%;
+						height: auto;
+						float: left;
+						margin: 47px 0 0 0;
+							.msg-pupilo{
+								width: 100%;
+								height: auto;
+								float: left;
+								margin-bottom: 44px;
+
+									.chat-img-pupilo{
+										width: 54px;
+										height: auto;
+										float: left;
+
+											.chat-nome{
+												width: 100%;
+												height: auto;
+												float: left;
+												text-align: center;
+												font-family: $font-lato;
+												font-weight: 400;
+												font-size: 9px;
+												color: #909090;
+											}
+											.chat-img{
+												width: 100%;
+												height: auto;
+												float: left;
+												text-align: center;
+												margin-top: 10px;
+											}
+									}
+									p{
+										width: 750px;
+										height: auto;
+										float: right;
+										margin: 22px 0 0 0;
+										background-color: #eae8f0;
+										border: 1px solid #acacac;
+										border-radius: 5px;
+										padding: 15px;
+										text-align: left;
+										font-family: $font-lato;
+										font-weight: 400;
+										font-size: 16px;
+										color: #909090;
+									}
+							}
+							.msg-mentor{
+								width: 100%;
+								height: auto;
+								float: left;
+								margin-bottom: 44px;
+
+									.chat-img-mentor{
+										width: 54px;
+										height: auto;
+										float: right;
+
+											.chat-nome{
+												width: 100%;
+												height: auto;
+												float: left;
+												text-align: center;
+												font-family: $font-lato;
+												font-weight: 400;
+												font-size: 9px;
+												color: #909090;
+											}
+											.chat-img{
+												width: 100%;
+												height: auto;
+												float: left;
+												text-align: center;
+												margin-top: 10px;
+											}
+									}
+									p{
+										width: 750px;
+										height: auto;
+										float: left;
+										margin: 22px 0 0 0;
+										background-color: #FFF;
+										border: 1px solid #acacac;
+										border-radius: 5px;
+										padding: 15px;
+										text-align: left;
+										font-family: $font-lato;
+										font-weight: 400;
+										font-size: 16px;
+										color: #909090;
+									}
+							}
+					}
+					.chat-textarea{
+						width: 100%;
+						height: auto;
+						float: left;
+							.chat-msg{
+								width: 96%;
+								height: 96px;
+								float: left;
+								background-color: #FFF;
+								border: 1px solid #acacac;
+								border-radius: 5px;
+								padding: 15px;
+								text-align: left;
+								font-family: $font-lato;
+								font-weight: 400;
+								font-size: 11px;
+								color: #909090;
+							}
+					}
+					.chat-btn{
+						width: 100%;
+						height: auto;
+						float: left;
+						margin-top: 20px;
+
+							.chat-btns{
+								width: 293px;
+								height: 50px;
+								float: right;
+								line-height: 50px;
+								background-color: #ec5757;
+								border: 0px;
+								text-transform: uppercase;
+								font-family: $font-lato;
+								font-weight: 400;
+								font-size: 16px;
+								color: #FFF;
+								padding: 0;
+	    						margin: 0;
+	    						cursor: pointer;
+							}
+					}
+
+			}
+	}	
+}
