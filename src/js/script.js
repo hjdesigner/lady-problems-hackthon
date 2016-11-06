@@ -25,7 +25,10 @@ function login(){
 			var senhaLogin = $('#senha').val();
 
 			 if( emailLogin == 'mentora@mentora.com.br' && senhaLogin == '1234' ){
-			 	window.location.href = "pupilos";
+			 	window.location.href = "pupilas.html";
+			 }
+			 else{
+			 	$('.login-error').html('E-mail ou senha errado.');
 			 }
 		});
 	}
@@ -34,5 +37,6 @@ function login(){
 $(document).ready(function($) {
 
 	chat();
-	
+	login();
+
 });

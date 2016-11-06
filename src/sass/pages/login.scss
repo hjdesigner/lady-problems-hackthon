@@ -28,6 +28,17 @@ body.page-login{
 						font-size: 25px;
 						color: #413990;
 					}
+					.login-error{
+						width: 100%;
+						height: auto;
+						float: left;
+						text-align: center;
+						text-transform: uppercase;
+						font-family: $font-lato;
+						font-weight: 400;
+						font-size: 11px;
+						color: #909090;
+					}
 					.btn-face{
 						width: 100%;
 						height: auto;
@@ -64,6 +75,10 @@ body.page-login{
 								padding: 0;
 	    						margin: 0;
 	    						cursor: pointer;
+	    						transition: background-color .25s ease;
+	    						&:hover{
+									background-color: #413990;
+	    						}
 							}
 					}
 					label{
